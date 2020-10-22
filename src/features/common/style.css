@@ -1,0 +1,21 @@
+.bt {
+  padding: 10px 15px;
+  border-radius: 10px;
+  background-color: #d8d8d8;
+  font-size: 14px;
+  text-decoration: none;
+  color: #000;
+}
+.bt:hover {
+  text-decoration: none;
+  background-color: #b9b8b8;
+  color: #ffffff;
+}
+.bt-primary {
+  background-color: #eee019;
+  color: #000000;
+}
+.bt-primary:hover {
+  background-color: #b9b8b8;
+  color: #ffffff;
+}

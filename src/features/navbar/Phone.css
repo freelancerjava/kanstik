@@ -1,0 +1,9 @@
+.navbar-phone {
+  color: #585757;
+  font-size: 24px;
+  text-decoration: underline dotted;
+}
+.navbar-phone:hover {
+  text-decoration: none;
+  color: #000;
+}

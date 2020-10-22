@@ -1,0 +1,17 @@
+.phone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.phone i {
+  color: #eee019;
+  padding: 7px;
+  border-radius: 50%;
+  border: 2px dotted #eee019;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 10px;
+}

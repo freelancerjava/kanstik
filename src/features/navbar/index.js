@@ -1,0 +1,9 @@
+export { default as MainNavbar } from './MainNavbar';
+export { default as Logo } from './Logo';
+export { default as Location } from './Location';
+export { default as Search } from './Search';
+export { default as Navmenu } from './Navmenu';
+export { default as Phone } from './Phone';
+export { default as Loginform } from './Loginform';
+export { default as Bookcall } from './Bookcall';
+export { default as Cart } from './Cart';

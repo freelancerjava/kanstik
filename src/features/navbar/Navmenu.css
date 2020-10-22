@@ -1,0 +1,13 @@
+.menu {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.menu a {
+  color: #535353;
+  font-size: 14px;
+}
+.menu a:hover {
+  text-decoration: underline dotted;
+  color: #000000;
+}
