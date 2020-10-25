@@ -4,9 +4,9 @@ import React, { useEffect, useState } from 'react';
 export default function Navmenu() {
   return (
     <ul className="menu">
-      {['menu', 'menu', 'menu', 'menu'].map(item => {
+      {['Доставка', 'Оплата', 'Адреса магазинов', 'Контакты', 'Акции'].map((item, key) => {
         return (
-          <li><a href="#">menu</a></li>
+          <li key={key}><a href="#">{item}</a></li>
         )
       })}
     </ul>

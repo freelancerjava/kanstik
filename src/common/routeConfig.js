@@ -6,6 +6,10 @@ import examplesRoute from '../features/examples/route';
 import _ from 'lodash';
 import dashboardRoute, { authRoute } from '../features/dashboard/route';
 import navbarRoute from '../features/navbar/route';
+import elementsRoute from '../features/elements/route';
+import caruselSectionRoute from '../features/carusel-section/route';
+import topMenuRoute from '../features/top-menu/route';
+import mainProductsRoute from '../features/main-products/route';
 
 // NOTE: DO NOT CHANGE the 'childRoutes' name and the declaration pattern.
 // This is used for Rekit cmds to register routes config for new features, and remove config when remove features, etc.
@@ -15,7 +19,11 @@ const childRoutes = [
   examplesRoute,
   dashboardRoute,
   authRoute,
-  navbarRoute
+  navbarRoute,
+  elementsRoute,
+  caruselSectionRoute,
+  topMenuRoute,
+  mainProductsRoute
 ];
 
 const routes = [{

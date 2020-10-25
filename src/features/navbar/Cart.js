@@ -3,8 +3,10 @@ import React, { useEffect, useState } from 'react';
 
 export default function Cart() {
   return (
-    <div className="navbar-cart">
-      Component content: navbar/Cart
+    <div className="cart-mini">
+      <i className="fa fa-shopping-cart" />
+      <a href="#" className="blocked-link">zero in cart</a>
+      <a href="#" className="go-to-cart"><i className="fa fa-arrow-right" /></a>
     </div>
   );
 };

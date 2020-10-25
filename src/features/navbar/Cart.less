@@ -1,5 +1,46 @@
 @import '../../styles/mixins';
 
-.navbar-cart {
+.cart-mini {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 5px;
 
+    background-color: rgb(226, 223, 223);
+    border-radius: 5px;
+    padding: 0;
+    padding-left: 8px;
+    overflow: hidden;
+
+    a {
+        color: rgb(121, 121, 121);
+        text-decoration: none;
+
+        &:hover {
+            color: #000;
+            text-decoration: none;
+        }
+    }
+
+    .blocked-link {
+        margin-right: 10px;
+        margin-left: 10px;
+        &:hover{
+            text-decoration: underline dotted;
+            line-height: 250%;
+        }
+    }
+
+    .go-to-cart {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background: #000;
+        height: 40px;
+        width: 40px;
+
+        &:hover {
+            background:rgb(226, 223, 223);
+        }
+    }
 }

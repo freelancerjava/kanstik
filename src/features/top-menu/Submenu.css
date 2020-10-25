@@ -1,0 +1,34 @@
+.top-menu-submenu {
+  position: absolute;
+  display: none;
+  margin-top: 5px;
+  left: 0;
+  width: 100%;
+  z-index: 99;
+  background-color: #fff;
+  padding: 20px;
+  max-height: 800px;
+}
+.top-menu-submenu h5,
+.top-menu-submenu li {
+  font-size: 14px;
+}
+.top-menu-submenu h5 {
+  margin-top: 15px;
+  font-weight: bold;
+}
+.top-menu-submenu ul,
+.top-menu-submenu li {
+  padding: 0;
+  margin: 0;
+}
+.top-menu-submenu ul.submenu {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+.top-menu-submenu ul.submenu li.submenu-li {
+  margin-top: 5px;
+}

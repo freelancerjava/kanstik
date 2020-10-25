@@ -7,6 +7,10 @@ import commonReducer from '../features/common/redux/reducer';
 import examplesReducer from '../features/examples/redux/reducer';
 import dashboardReducer from '../features/dashboard/redux/reducer';
 import navbarReducer from '../features/navbar/redux/reducer';
+import elementsReducer from '../features/elements/redux/reducer';
+import caruselSectionReducer from '../features/carusel-section/redux/reducer';
+import topMenuReducer from '../features/top-menu/redux/reducer';
+import mainProductsReducer from '../features/main-products/redux/reducer';
 
 // NOTE 1: DO NOT CHANGE the 'reducerMap' name and the declaration pattern.
 // This is used for Rekit cmds to register new features, remove features, etc.
@@ -20,6 +24,10 @@ const reducerMap = {
   examples: examplesReducer,
   dashboard: dashboardReducer,
   navbar: navbarReducer,
+  elements: elementsReducer,
+  caruselSection: caruselSectionReducer,
+  topMenu: topMenuReducer,
+  mainProducts: mainProductsReducer,
 };
 
 export default combineReducers(reducerMap);

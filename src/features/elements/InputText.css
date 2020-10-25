@@ -1,0 +1,24 @@
+.input-wrapper {
+  display: flex;
+  align-items: center;
+}
+input.default-input-text {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  width: 100%;
+  font-size: 16px;
+  padding: 6px 10px;
+  border: #eee019 3px solid;
+  border-radius: 5px;
+}
+input.default-input-text:focus {
+  border: #ffee00 3px solid;
+}
+i.appendIcon {
+  display: block;
+  margin-left: -30px;
+}
+i.appendIcon:hover {
+  cursor: pointer;
+}

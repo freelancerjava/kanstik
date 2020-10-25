@@ -1,0 +1,5 @@
+.main-products-products-container {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}

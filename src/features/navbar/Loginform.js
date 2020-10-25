@@ -3,7 +3,7 @@ import React, { useEffect, useState } from 'react';
 
 export default function Loginform() {
   return (
-    <a className="navbar-loginform" href="#"><i className="fa fa-user" /> Вход/Регистрация</a>
+    <a className="navbar-loginform" href="#"><i className="fa fa-user" /> <span>Вход/Регистрация</span></a>
   );
 };
 

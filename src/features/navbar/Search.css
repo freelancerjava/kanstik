@@ -1,11 +1,24 @@
 .navbar-search {
-  font-size: 16px;
-  border: orangered 1px solid;
-  padding: 5px;
+  position: relative;
 }
-.navbar-search input {
-  outline: none;
-  border: none;
+.navbar-search .search-list {
+  z-index: 99;
+  background-color: #fff;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  box-shadow: 3px 1px 20px #888888;
+  margin-top: 10px;
   width: 100%;
-  height: 20px;
+}
+.navbar-search .search-list li {
+  padding: 7px 5px;
+  border-bottom: 1px #dbdbdb solid;
+  width: 100%;
+}
+.navbar-search .search-list li:hover {
+  border-bottom: 1px #dcf028 solid;
+  cursor: pointer;
 }

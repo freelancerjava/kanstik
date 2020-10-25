@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import Bookcall from './Bookcall';
+import Cart from './Cart';
 import Location from './Location';
 import Loginform from './Loginform';
 import Logo from './Logo';
@@ -25,13 +26,7 @@ export default function MainNavbar() {
       </div>
       <div className="book-cart">
         <Bookcall />
-        <div className="cart-mini">
-          <span>
-            <i className="" />
-            <a href="#" className="blocked-link">zero in cart</a>
-          </span>
-          <a href="#"><i className="" /></a>
-        </div>
+        <Cart />
       </div>
     </div>
   );
